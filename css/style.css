@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.products-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+}
+.products-section .product{
+    width: calc((100% - 20px)/ 3);
+    background-color: #eee;
+    border-radius: 8px;
+}
+.products-section .product img{
+    width: 100%;
+    aspect-ratio: 16 / 9;
+
+}

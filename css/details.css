@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.product-details{
+    text-align: center;
+}
+.images{
+    display: flex;
+    overflow: auto;
+}
+.images img{
+    aspect-ratio: 16/9;
+    object-fit: contain;
+}
